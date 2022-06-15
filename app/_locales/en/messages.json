@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "YouTube channel location"
+  },
+  "appDesc": {
+    "message": "Show info about the YouTube channel's location(country) in the video description."
+  }
+}

@@ -1,0 +1,1 @@
+The extension for web-browsers Chrome, Mozilla, which show info about the YouTube channel's location(country) in the video description.
