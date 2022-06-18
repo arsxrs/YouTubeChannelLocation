@@ -1,3 +1,6 @@
+# ![YouTubeChannelLocation](https://user-images.githubusercontent.com/2439426/174459193-129d69cc-03c8-494f-853a-582b60c700d8.png)  YouTube Channel Location
+
+
 ### The extension for web browsers shows info about the YouTube channel's location(country) in the video description.
 ![image](https://user-images.githubusercontent.com/2439426/173799328-8d47ff22-6a36-4657-8153-dabe173faff8.png)
 
