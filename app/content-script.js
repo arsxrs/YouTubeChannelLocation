@@ -1,4 +1,5 @@
 const country_name_container = 'ytdc-channel-country-name-container'
+const country_name_text_container = 'ytdc-channel-country-name-text-container'
 const insert_position = 'ytd-video-owner-renderer > #upload-info > ytd-channel-name > ytd-badge-supported-renderer'
 const country_regex = 'country":{"simpleText":"(.*?)"},"'
 
@@ -93,15 +94,16 @@ const renderLocationLable = async () => {
   }
 
   const container = document.createElement('div')
-  container.classList.add(
-    country_name_container,
-    'badge',
-    'badge-style-type-live-now',
-    'style-scope',
-    'ytd-badge-supported-renderer'
-  )
+  const text_container = document.createElement('div')
+  const text = document.createElement('p')
+  
+  container.classList.add(country_name_container)
+  text_container.classList.add(country_name_text_container)
 
-  container.textContent = location
+
+  text.textContent = location
+  text_container.appendChild(text);
+  container.appendChild(text_container);
   insertPosition.parentElement?.insertBefore(container, insertPosition.nextSibling) 
   isLocationRendered = true
   return

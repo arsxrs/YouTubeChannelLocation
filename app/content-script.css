@@ -1,3 +1,16 @@
 .ytdc-channel-country-name-container {
+  background: var(--yt-spec-additive-background);
+  border-radius: 14px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.ytdc-channel-country-name-text-container {
   text-transform: uppercase;
+  color: var(--yt-spec-text-primary);
+  font-size: 13px;
+  padding: 1px 7px;
+  white-space: nowrap;
 }
